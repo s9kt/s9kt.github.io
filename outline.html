@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./images/logo.png" />
+  <title>(Totally Real) Linkdin</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <a href="index.html" class="logo"><img src="images/logo.png" /></a>
+      <div class="search-box">
+        <img src="images/search.png" />
+        <input type="text" placeholder="Search" />
+      </div>
+    </div>
+    <div class="navbar-center">
+      <ul>
+        <!-- <li>
+          <a href="#" class="active-link"><img src="images/home.png" /><span>Home</span></a>
+        </li> -->
+        <!-- <li>
+          <a href="#"><img src="images/network.png" /><span>My Network</span></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/jobs.png" /><span>Jobs</span></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/message.png" /><span>Messaging</span></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/notification.png" /><span>Notifications</span></a>
+        </li> -->
+      </ul>
+    </div>
+    <div class="navbar-right">
+      <div class="online">
+        <img src="images/my profile.png" class="nav-profile-img" onclick="toggleMenu()" />
+      </div>
+    </div>
+
+    <div class="profile-menu-wrap" id="profileMenu">
+      <div class="profile-menu">
+        <div class="user-info">
+          <img src="images/my profile.png" />
+          <div>
+            <h3>The Internet</h3>
+          </div>
+        </div>
+        <hr />
+        <a href="#" class="profile-menu-link">
+          <img src="images/feedback.png" />
+          <p>Give Feedback</p>
+          <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+          <img src="images/setting.png" />
+          <p>Settings & Privacy</p>
+          <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+          <img src="images/help.png" />
+          <p>Help & Support</p>
+          <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+          <img src="images/display.png" />
+          <p>Display & Accessibility</p>
+          <span>></span>
+          <a href="#" class="profile-menu-link">
+            <img src="images/logout.png" />
+            <p>Logout</p>
+            <span>></span>
+          </a>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!--navbar close-->
+
+  <div class="container">
+
+    <div class="main-content">
+
+      <div class="post">
+        <div class="post-author">
+          <img src="images/pranav.jpg" />
+          <div>
+            <h1>Research Outline</h1>
+            <small>CS @ PSU | Big Silly Goose</small>
+            <small>2 hours ago</small>
+          </div>
+        </div>
+        <p>
+          <b> Current issues with social media <br></b>
+          &emsp;• Lack of oversight and accountability <br>
+          &emsp;• Facebook, now named Meta, since its founding been involved in a variety of controversies and legal
+          disputes
+          over its privacy practices, most famously the Cambridge Analytica scandal in 2018<br>
+          &emsp;• SnapChat has faced lawsuits over the degree of drug dealing that occurs over the platform due to its
+          “disappearing messages” feature <br>
+          &emsp;• Discord banned more than a million accounts in the first half of 2022 alone, mostly for child safety
+          violations as well as exploitative content<br>
+          <b>How would a new agency be created? Who would run it?<br></b>
+          &emsp;• The independent agency would be a bill passed by congress. It would probably require slightly
+          weakening
+          Section 230 by adding an exception for this agency to do its job<br>
+          &emsp;• The agency would be headed by the commission chair, likely an expert in law and technology<br>
+          &emsp;• The agency would be a commission composed of advisors, lawyers, and policymakers from the appropriate
+          senate
+          and house committees<br>
+          <b>What would the agency do? What are its goals?<br></b>
+          &emsp;• Consulting with advisors and researchers, the commission would be responsible for the research and
+          development of new ways to make social media safer, like the National Highway Traffic Safety Administration
+          does for vehicles<br>
+          &emsp;• Also like the NHTSA, the commission could set standards for social media platforms to maintain, such
+          as
+          standards for protecting against misinformation, a clear definition and policy for hate speech, and an effort
+          to incite productive conversation rather than inflammatory<br>
+          &emsp;• Require platforms to be transparent in their efforts with the public and report to the commission
+          whenever
+          necessary<br>
+        </p>
+        <!-- <img src="images/post-image-3.png" width="100%" /> -->
+        <div class="post-stats">
+          <div>
+            <img src="images/thumbsup.png" />
+            <img src="images/love.png" />
+            <img src="images/clap.png" />
+            <span class="liked-users">Abhinav mishra and 75 others</span>
+          </div>
+          <div>
+            <span>22 comments &middot; 40 shares</span>
+          </div>
+        </div>
+
+        <div class="post-activity">
+          <div>
+            <img src="images/my profile.png" class="post-activity-user-icon" />
+            <img src="images/down-arrow.png" class="post-activity-arrow-icon" />
+          </div>
+          <div class="post-activity-link">
+            <img src="images/like.png" />
+            <span>Like</span>
+          </div>
+          <div class="post-activity-link">
+            <img src="images/comment.png" />
+            <span>Comment</span>
+          </div>
+          <div class="post-activity-link">
+            <img src="images/share.png" />
+            <span>Share</span>
+          </div>
+          <div class="post-activity-link">
+            <img src="images/send.png" />
+            <span>Send</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="right-sidebar">
+      <div class="sidebar-news">
+        <img src="images/more.png" class="info-icon" />
+        <h3>Trending News</h3>
+        <a href="https://www.bbc.com/news/articles/cwy83jdpgw5o">Social media given 'last chance' to tackle...</a>
+        <span>15 Hours Ago; Via BBC</span>
+
+        <a
+          href="https://www.theguardian.com/media/2024/dec/16/social-media-platforms-have-work-to-do-to-comply-with-online-safety-act-says-ofcom">Social
+          media platforms have work to do to comply...</a>
+        <span>9 hours ago; Via The Guardian</span>
+
+        <a
+          href="https://www.forbes.com/sites/petersuciu/2024/12/16/social-media-sympathy-for-luigi-mangione-risks-jury-nullification/">Social
+          Media 'Sympathy' For Luigi Mangione Risks...</a>
+        <span>9 hours ago; Via Forbes</span>
+
+        <a
+          href="https://www.euronews.com/next/2024/12/15/sweden-considers-australia-style-social-media-age-limits-to-fight-online-gang-recruitment">Sweden
+          mulls Australia-style social media age limit...</a>
+        <span>1 day ago; Via Euronews</span>
+
+        <a href="#">Is TikTok really getting banned in the US? What we...</a>
+        <span>7 hours ago; Via USA Today</span>
+      </div>
+
+
+      <div class="sidebar-useful-links">
+        <a href="#">About</a>
+        <a href="#">Accessibility</a>
+        <a href="#">Help Center</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Advertising</a>
+        <a href="#">Get the App</a>
+        <a href="#">More</a>
+
+        <div class="copyright-msg">
+          <img src="images/logo.png" />
+          <p>NOT ACTUALLY LinkedIn DONT SUE ME PLEASE &#169; 2024</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let profileMenu = document.getElementById("profileMenu");
+    function toggleMenu() {
+      profileMenu.classList.toggle("open-menu");
+    }
+  </script>
+</body>
+
+</html>
